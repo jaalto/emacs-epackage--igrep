@@ -1,0 +1,30 @@
+Package: igrep-mode
+Section: extensions
+License: GPL-2+
+License-Text:
+Depends: emacs (>= 23)
+Status: unmaintained stable
+Archive:
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Kevin Rodgers <ihs_4664@yahoo.com>
+Upstream-Bugs:
+Vcs-Type:
+Vcs-Url:
+Vcs-Browser:
+Vcs-Args:
+Vcs-User:
+Vcs-Password:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/igrep.el
+Commentary:
+Info:
+Description: An improved interface to `grep` and `find`
+ Provides commands igrep, igrep-find. Commands provide defaults for
+ the REGEX and FILES arguments based on the current word and the
+ visited file name. When run interactively from Dired mode, the
+ various `igrep' commands provide defaults for the REGEX and FILES
+ arguments that are based on the visited directory.
+ .
+ Note: 2019-05-25 the code hasn't been updated since 2005.
